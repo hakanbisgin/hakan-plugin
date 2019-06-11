@@ -1,0 +1,90 @@
+form[name='like_button_form'] button{
+    background-color: #e3e3e3;
+    padding: 10px;
+    color: cornflowerblue;
+    text-decoration: none !important;
+    border-radius: 5px;
+    transition: all ease 0.3s;
+    display: inline-block;
+}
+
+form[name='like_button_form'] button:hover{
+    background-color: cornflowerblue;
+    color: white;
+    text-decoration: none;
+    transform: scale(1.1,1.1);
+}
+
+.hakan_widget_link{
+
+    line-height: 10px;
+    padding: 5px;
+    float: left;
+    list-style: none;
+}
+
+.hakan_widget_list{
+    padding-left: 0px;
+}
+
+.hakan_badge{
+
+    background-color: orange;
+    color: white;
+    text-align: center;
+    //height: 15px;
+    //width: 30px;
+    line-height: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+    display: inline-block;
+    float: right;
+
+}
+
+.hakan_table{
+    width: 70%;
+    background-color: #eeeeee;
+    border: 3px #cccccc solid;
+}
+
+.hakan_table thead{
+    background-color: #aaaaaa;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    line-height: normal;
+}
+
+.hakan_table td:first-child{
+    border: 1px #cccccc solid;
+    padding-left: 12px;
+}
+
+.hakan_table td:last-child{
+    width: 15%;
+    border: 1px #cccccc solid;
+    text-align: center;
+    padding-left: auto;
+}
+
+.pagination_link{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    line-height: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.pagination_link a{
+    text-decoration: none;
+    color: black;
+
+}
