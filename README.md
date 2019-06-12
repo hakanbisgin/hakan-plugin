@@ -3,33 +3,32 @@
 ---
 Just another **Wordpress plugin** developed by **Hakan BİŞGİN**.
 Developed for like button and functionality. 
-Includes ==Top 10 liked post== widget and ==Top Liked Tags== panel.
+Includes `Top 10 liked post` widget and `Top Liked Tags` panel.
 
-::: warning
-At this document **'wp_'** is used instead of the **db_prefix**.
-:::
-*[AJAX]: Asynchronous JavaScript and XML
+
+>At this document **'wp_'** is used instead of the **db_prefix**.
+
 
 This plugin: 
-+ migrates =='wp_post_likes'== table for like records.
-+ uses **AJAX** for the =='like_button_clicked'== function.
++ migrates `'wp_post_likes'` table for like records.
++ uses **AJAX** for the `'like_button_clicked'` function.
 ---
 ## **To use**
 
->Copy ==hakan-plugin== folder to ==...wp-content\plugins== location under the wordpress location.
+>Copy `hakan-plugin` folder to `...wp-content\plugins` location under the wordpress location.
 Then activate the plugin under **installed plugin** table.
 
 ---
 There are two user identification methods implemented for the separation of liked and disliked posts. 
 
-The method can be changed with the  =='hakan_method_type'== value at =='wp_options'== table .
+The method can be changed with the  `'hakan_method_type'` value at `'wp_options'` table .
 
 
 ---
 
 | Method| Descriptions | hakan_method_type |
 | --- | --- | --- |
-| use login | **(default)** use ==user_id== value (if the user not logged in, the like button is not avaliable for user)|must be set with "0" |
+| use login | **(default)** use `user_id` value (if the user not logged in, the like button is not avaliable for user)|must be set with "0" |
 | use cookie| use cookie (create cookie if cookie not set)| must be set with "1" |
 
 ---
