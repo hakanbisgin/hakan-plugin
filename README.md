@@ -1,5 +1,4 @@
-# hakan-plugin 
-## **v0.0.1**
+# hakan-plugin **v0.0.1**
 ---
 Just another **Wordpress plugin** developed by **Hakan BİŞGİN**.
 Developed for like button and functionality. 
@@ -32,7 +31,7 @@ The method can be changed with the  `'hakan_method_type'` value at `'wp_options'
 | use cookie| use cookie (create cookie if cookie not set)| must be set with "1" |
 
 ---
-:::warning
+
 ### **if you want to communicate with me**
 [github /hakanbisgin](https://github.com/hakanbisgin)  
 [linked.in](https://www.linkedin.com/in/hakan-bişgin-184368138/)  
